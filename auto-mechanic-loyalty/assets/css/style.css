@@ -1,0 +1,122 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: #d7dee2;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.aml-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fefefe;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 2px 7px rgba(0,0,0,0.12);
+}
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+button {
+  background: #2c3e50;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+button:hover {
+  background: #34495e;
+}
+.success {
+  color: green;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.error {
+  color: red;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: #fff;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+th {
+  background: #f1f1f1;
+  font-weight: 600;
+}
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+/* Garage Portal Layout */
+.aml-garage-portal {
+  display: flex;
+  min-height: 100vh;
+}
+.aml-garage-sidebar {
+  width: 220px;
+  background: #f5f5f5;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+.aml-garage-sidebar h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+.aml-garage-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.aml-garage-sidebar ul li {
+  margin-bottom: 10px;
+}
+.aml-garage-sidebar a {
+  display: block;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+.aml-garage-sidebar a:hover {
+  background: #ddd;
+}
+.aml-garage-sidebar a.active {
+  background: #607d8b;
+  color: #fff;
+  font-weight: 600;
+}
+.aml-garage-content {
+  flex: 1;
+  background: #fff;
+  padding: 30px;
+}
