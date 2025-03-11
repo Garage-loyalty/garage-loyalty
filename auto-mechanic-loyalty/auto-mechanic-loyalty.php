@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Auto Mechanic Loyalty - Pro Demo (Inbound + MonteurFlow + Kenteken + AI + APK + Twilio + RDW)
  * Description: Uitgebreide plugin met RDW-koppeling, WhatsApp inbound/outbound, AI (optioneel), APK-herinnering, bandenwissels, AI per garage, koppeling inkomende berichten en monteur-flow.
- * Version: 2.8
- * Author: Jouw Naam
+ * Version: 2.9
+ * Author: Jack Wullems
  */
 
 if (!defined('ABSPATH')) exit;
